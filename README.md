@@ -1,16 +1,63 @@
-# React + Vite
+# Props Cards React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is built using React.js and CSS. It demonstrates the use of React Props by displaying multiple company cards dynamically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Built with React.js
+* Uses Functional Components
+* Uses Props for data passing
+* Multiple company cards displayed
+* Responsive card layout using CSS
+* Reusable Card Component
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript (ES6)
+* CSS3
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+src/
+├── component/
+│ └── Card.jsx
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+
+## Learning Objectives
+
+* Understanding React Components
+* Understanding Props
+* Reusable UI Design
+* Component-Based Architecture
+* Styling with CSS
+
+## Example Companies Displayed
+
+* Google
+* Microsoft
+* Amazon
+* Netflix
+* Meta
+
+## How to Run
+
+1. Clone the repository
+2. Install dependencies
+
+npm install
+
+3. Start development server
+
+npm run dev
+
+## Author
+
+Aditya Prajapati
+React Developer
